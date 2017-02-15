@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="EESplitItTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Payer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbx-j6-lEL">
+                        <rect key="frame" x="16" y="12" width="42" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="pays" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="py5-5k-mEn">
+                        <rect key="frame" x="63" y="12" width="35" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IxE-5W-X8G">
+                        <rect key="frame" x="103" y="12" width="57" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="to" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWD-1e-oHZ">
+                        <rect key="frame" x="165" y="12" width="15" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receiver" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKU-2N-4uI">
+                        <rect key="frame" x="185" y="12" width="64" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xWD-1e-oHZ" firstAttribute="baseline" secondItem="TKU-2N-4uI" secondAttribute="baseline" id="2xN-yP-rOj"/>
+                    <constraint firstItem="IxE-5W-X8G" firstAttribute="baseline" secondItem="py5-5k-mEn" secondAttribute="baseline" id="6Dy-M9-p8i"/>
+                    <constraint firstItem="xWD-1e-oHZ" firstAttribute="leading" secondItem="IxE-5W-X8G" secondAttribute="trailing" constant="5" id="6WH-FE-rmO"/>
+                    <constraint firstItem="pbx-j6-lEL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="EBj-Ed-ROY"/>
+                    <constraint firstItem="TKU-2N-4uI" firstAttribute="leading" secondItem="xWD-1e-oHZ" secondAttribute="trailing" constant="5" id="MvC-Eo-8un"/>
+                    <constraint firstItem="xWD-1e-oHZ" firstAttribute="baseline" secondItem="IxE-5W-X8G" secondAttribute="baseline" id="czu-Nw-oYa"/>
+                    <constraint firstItem="IxE-5W-X8G" firstAttribute="leading" secondItem="py5-5k-mEn" secondAttribute="trailing" constant="5" id="fGM-Ud-ppz"/>
+                    <constraint firstItem="py5-5k-mEn" firstAttribute="leading" secondItem="pbx-j6-lEL" secondAttribute="trailing" constant="5" id="h3t-RF-O4c"/>
+                    <constraint firstItem="py5-5k-mEn" firstAttribute="baseline" secondItem="pbx-j6-lEL" secondAttribute="baseline" id="yC9-4K-CKr"/>
+                    <constraint firstAttribute="centerY" secondItem="pbx-j6-lEL" secondAttribute="centerY" id="yHK-cA-MkR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="amountLabel" destination="IxE-5W-X8G" id="dMz-ef-6Px"/>
+                <outlet property="payerLabel" destination="pbx-j6-lEL" id="QA1-Fh-PDG"/>
+                <outlet property="receiverLabel" destination="TKU-2N-4uI" id="Qw2-7W-8Zp"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

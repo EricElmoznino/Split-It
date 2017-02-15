@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EEGroupsViewController">
+            <connections>
+                <outlet property="tableView" destination="ZPz-fh-oeh" id="mYW-nD-ANi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ZPz-fh-oeh">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="cZU-4g-f1h"/>
+                        <outlet property="delegate" destination="-1" id="d2Q-mf-4Ar"/>
+                    </connections>
+                </tableView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6y9-sY-bYl">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <items>
+                        <barButtonItem image="Help" id="0jM-pU-Bj6">
+                            <connections>
+                                <action selector="pushHelp:" destination="-1" id="MhA-Ru-cr9"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="pD1-pg-n1n"/>
+                        <barButtonItem image="Feedback" id="kVC-Zv-eVq">
+                            <connections>
+                                <action selector="sendFeedback:" destination="-1" id="grV-uf-KDB"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="2zE-bM-t5H"/>
+                        <barButtonItem image="Copyright" id="92p-u6-YBQ">
+                            <connections>
+                                <action selector="pushCopyright:" destination="-1" id="Lom-5R-VXy"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6y9-sY-bYl" secondAttribute="trailing" id="3Eh-F4-gUP"/>
+                <constraint firstItem="ZPz-fh-oeh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KMd-ub-BQV"/>
+                <constraint firstItem="6y9-sY-bYl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WZX-Sk-jqc"/>
+                <constraint firstItem="ZPz-fh-oeh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ynl-Nd-0mb"/>
+                <constraint firstAttribute="trailing" secondItem="ZPz-fh-oeh" secondAttribute="trailing" id="c5p-Cr-Kz4"/>
+                <constraint firstAttribute="bottom" secondItem="6y9-sY-bYl" secondAttribute="bottom" id="wDn-aN-Bfz"/>
+                <constraint firstItem="6y9-sY-bYl" firstAttribute="top" secondItem="ZPz-fh-oeh" secondAttribute="bottom" id="ybS-n6-pxz"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Copyright" width="22" height="22"/>
+        <image name="Feedback" width="22" height="22"/>
+        <image name="Help" width="22" height="22"/>
+    </resources>
+</document>

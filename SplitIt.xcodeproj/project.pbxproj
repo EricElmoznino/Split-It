@@ -7,12 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07485B0A1B4F5C4A00A2D5E4 /* EEPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07485B081B4F5C4A00A2D5E4 /* EEPeopleViewController.m */; };
+		07485B0F1B4F5C6D00A2D5E4 /* EEPurchasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07485B0D1B4F5C6D00A2D5E4 /* EEPurchasesViewController.m */; };
+		07485B141B4F5CA600A2D5E4 /* EESplitItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07485B121B4F5CA600A2D5E4 /* EESplitItViewController.m */; };
+		07485B191B5168E500A2D5E4 /* EEPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07485B171B5168E500A2D5E4 /* EEPersonViewController.m */; };
+		07485B1A1B5168E500A2D5E4 /* EEPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07485B181B5168E500A2D5E4 /* EEPersonViewController.xib */; };
+		07485B1E1B518C2B00A2D5E4 /* EEPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07485B1C1B518C2B00A2D5E4 /* EEPurchaseViewController.m */; };
+		07485B1F1B518C2B00A2D5E4 /* EEPurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07485B1D1B518C2B00A2D5E4 /* EEPurchaseViewController.xib */; };
 		07C954D81B4DC50100858053 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C954D71B4DC50100858053 /* main.m */; };
 		07C954DB1B4DC50100858053 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C954DA1B4DC50100858053 /* AppDelegate.m */; };
 		07C954DD1B4DC50100858053 /* SplitIt-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 07C954DC1B4DC50100858053 /* SplitIt-Prefix.pch */; };
 		07C954DF1B4DC50100858053 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C954DE1B4DC50100858053 /* Images.xcassets */; };
 		07C954E21B4DC50100858053 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C954E01B4DC50100858053 /* LaunchScreen.xib */; };
 		07C954EE1B4DC50100858053 /* SplitItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C954ED1B4DC50100858053 /* SplitItTests.m */; };
+		07C954F91B4DC9CD00858053 /* EEGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C954F81B4DC9CD00858053 /* EEGroup.m */; };
+		07C954FC1B4DC9E200858053 /* EEPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C954FB1B4DC9E200858053 /* EEPerson.m */; };
+		07C954FF1B4DCA1400858053 /* EEGroupStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C954FE1B4DCA1400858053 /* EEGroupStore.m */; };
+		07C955021B4DCAD700858053 /* EEPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C955011B4DCAD700858053 /* EEPurchase.m */; };
+		07C955101B4E19EA00858053 /* EEAddGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C9550E1B4E19E900858053 /* EEAddGroupViewController.m */; };
+		07C955111B4E19EA00858053 /* EEAddGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C9550F1B4E19E900858053 /* EEAddGroupViewController.xib */; };
+		07E44C8C1BA7A630005B2D40 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E44C8B1BA7A630005B2D40 /* iRate.m */; };
+		0A0BDF251B55C50400249375 /* EEPersonTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BDF231B55C50400249375 /* EEPersonTableCell.m */; };
+		0A0BDF261B55C50400249375 /* EEPersonTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BDF241B55C50400249375 /* EEPersonTableCell.xib */; };
+		0A0BDF2A1B55C52800249375 /* EEPurchaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BDF281B55C52800249375 /* EEPurchaseTableCell.m */; };
+		0A0BDF2B1B55C52800249375 /* EEPurchaseTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BDF291B55C52800249375 /* EEPurchaseTableCell.xib */; };
+		0A0BDF2F1B56089700249375 /* EEContributionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BDF2D1B56089600249375 /* EEContributionsCell.m */; };
+		0A0BDF301B56089700249375 /* EEContributionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BDF2E1B56089600249375 /* EEContributionsCell.xib */; };
+		0A0EF2061B7D48530059C69A /* EEGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0EF2051B7D48530059C69A /* EEGroupsViewController.m */; };
+		0A25D0061B54B7F600CCC9C5 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A25D0051B54B7F600CCC9C5 /* UIViewController+BackButtonHandler.m */; };
+		0A6B92AA1B65801C0056ED55 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6B92A91B65801C0056ED55 /* AddressBook.framework */; };
+		0A6B92AC1B6580260056ED55 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6B92AB1B6580260056ED55 /* AddressBookUI.framework */; };
+		0A80A8231B5D554100C1DE67 /* EEMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80A8221B5D554100C1DE67 /* EEMoreViewController.m */; };
+		0A80A8271B5DDB8800C1DE67 /* EEHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80A8251B5DDB8800C1DE67 /* EEHelpViewController.m */; };
+		0A80A8281B5DDB8800C1DE67 /* EEHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A80A8261B5DDB8800C1DE67 /* EEHelpViewController.xib */; };
+		0A80A82C1B5DDBAD00C1DE67 /* EECopyrightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A80A82A1B5DDBAD00C1DE67 /* EECopyrightViewController.m */; };
+		0A80A82D1B5DDBAD00C1DE67 /* EECopyrightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A80A82B1B5DDBAD00C1DE67 /* EECopyrightViewController.xib */; };
+		0AA6AF551B52D819007D7D94 /* EEPaidTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6AF531B52D819007D7D94 /* EEPaidTableCell.m */; };
+		0AA6AF561B52D819007D7D94 /* EEPaidTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA6AF541B52D819007D7D94 /* EEPaidTableCell.xib */; };
+		0AEC9BEA1B598DCF00DBF9E6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEC9BE91B598DCF00DBF9E6 /* MessageUI.framework */; };
+		0AF3CA9A1B72C2C4006B3DF3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF3CA991B72C2C4006B3DF3 /* StoreKit.framework */; };
+		0AF5C2EB1B60229500428F0E /* EEGroupsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF5C2E91B60229500428F0E /* EEGroupsViewController.xib */; };
+		0AF5EAD41B5617DB0020262E /* EEGroupTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF5EAD21B5617DB0020262E /* EEGroupTableCell.m */; };
+		0AF5EAD51B5617DB0020262E /* EEGroupTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF5EAD31B5617DB0020262E /* EEGroupTableCell.xib */; };
+		0AF5EAD91B56D88D0020262E /* EESplitItTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF5EAD71B56D88D0020262E /* EESplitItTableCell.m */; };
+		0AF5EADA1B56D88D0020262E /* EESplitItTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF5EAD81B56D88D0020262E /* EESplitItTableCell.xib */; };
+		0AF5EADD1B56EFC30020262E /* EEImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF5EADC1B56EFC30020262E /* EEImageStore.m */; };
+		0AF5EAE11B5742850020262E /* EEImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF5EADF1B5742850020262E /* EEImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +66,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07485B071B4F5C4A00A2D5E4 /* EEPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPeopleViewController.h; sourceTree = "<group>"; };
+		07485B081B4F5C4A00A2D5E4 /* EEPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPeopleViewController.m; sourceTree = "<group>"; };
+		07485B0C1B4F5C6D00A2D5E4 /* EEPurchasesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPurchasesViewController.h; sourceTree = "<group>"; };
+		07485B0D1B4F5C6D00A2D5E4 /* EEPurchasesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPurchasesViewController.m; sourceTree = "<group>"; };
+		07485B111B4F5CA600A2D5E4 /* EESplitItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EESplitItViewController.h; sourceTree = "<group>"; };
+		07485B121B4F5CA600A2D5E4 /* EESplitItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EESplitItViewController.m; sourceTree = "<group>"; };
+		07485B161B5168E500A2D5E4 /* EEPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPersonViewController.h; sourceTree = "<group>"; };
+		07485B171B5168E500A2D5E4 /* EEPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPersonViewController.m; sourceTree = "<group>"; };
+		07485B181B5168E500A2D5E4 /* EEPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEPersonViewController.xib; sourceTree = "<group>"; };
+		07485B1B1B518C2B00A2D5E4 /* EEPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPurchaseViewController.h; sourceTree = "<group>"; };
+		07485B1C1B518C2B00A2D5E4 /* EEPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPurchaseViewController.m; sourceTree = "<group>"; };
+		07485B1D1B518C2B00A2D5E4 /* EEPurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEPurchaseViewController.xib; sourceTree = "<group>"; };
 		07C954D21B4DC50100858053 /* SplitIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C954D61B4DC50100858053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07C954D71B4DC50100858053 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +89,58 @@
 		07C954E71B4DC50100858053 /* SplitItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C954EC1B4DC50100858053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07C954ED1B4DC50100858053 /* SplitItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitItTests.m; sourceTree = "<group>"; };
+		07C954F71B4DC9CD00858053 /* EEGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGroup.h; sourceTree = "<group>"; };
+		07C954F81B4DC9CD00858053 /* EEGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGroup.m; sourceTree = "<group>"; };
+		07C954FA1B4DC9E200858053 /* EEPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPerson.h; sourceTree = "<group>"; };
+		07C954FB1B4DC9E200858053 /* EEPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPerson.m; sourceTree = "<group>"; };
+		07C954FD1B4DCA1400858053 /* EEGroupStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGroupStore.h; sourceTree = "<group>"; };
+		07C954FE1B4DCA1400858053 /* EEGroupStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGroupStore.m; sourceTree = "<group>"; };
+		07C955001B4DCAD700858053 /* EEPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPurchase.h; sourceTree = "<group>"; };
+		07C955011B4DCAD700858053 /* EEPurchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPurchase.m; sourceTree = "<group>"; };
+		07C9550D1B4E19E900858053 /* EEAddGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEAddGroupViewController.h; sourceTree = "<group>"; };
+		07C9550E1B4E19E900858053 /* EEAddGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEAddGroupViewController.m; sourceTree = "<group>"; };
+		07C9550F1B4E19E900858053 /* EEAddGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEAddGroupViewController.xib; sourceTree = "<group>"; };
+		07E44C8A1BA7A627005B2D40 /* iRate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		07E44C8B1BA7A630005B2D40 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		0A0BDF221B55C50400249375 /* EEPersonTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPersonTableCell.h; sourceTree = "<group>"; };
+		0A0BDF231B55C50400249375 /* EEPersonTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPersonTableCell.m; sourceTree = "<group>"; };
+		0A0BDF241B55C50400249375 /* EEPersonTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEPersonTableCell.xib; sourceTree = "<group>"; };
+		0A0BDF271B55C52800249375 /* EEPurchaseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPurchaseTableCell.h; sourceTree = "<group>"; };
+		0A0BDF281B55C52800249375 /* EEPurchaseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPurchaseTableCell.m; sourceTree = "<group>"; };
+		0A0BDF291B55C52800249375 /* EEPurchaseTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEPurchaseTableCell.xib; sourceTree = "<group>"; };
+		0A0BDF2C1B56089600249375 /* EEContributionsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEContributionsCell.h; sourceTree = "<group>"; };
+		0A0BDF2D1B56089600249375 /* EEContributionsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEContributionsCell.m; sourceTree = "<group>"; };
+		0A0BDF2E1B56089600249375 /* EEContributionsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEContributionsCell.xib; sourceTree = "<group>"; };
+		0A0EF2051B7D48530059C69A /* EEGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGroupsViewController.m; sourceTree = "<group>"; };
+		0A25D0041B54B7F600CCC9C5 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		0A25D0051B54B7F600CCC9C5 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		0A6B92A91B65801C0056ED55 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0A6B92AB1B6580260056ED55 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		0A80A8211B5D554100C1DE67 /* EEMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEMoreViewController.h; sourceTree = "<group>"; };
+		0A80A8221B5D554100C1DE67 /* EEMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEMoreViewController.m; sourceTree = "<group>"; };
+		0A80A8241B5DDB8800C1DE67 /* EEHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEHelpViewController.h; sourceTree = "<group>"; };
+		0A80A8251B5DDB8800C1DE67 /* EEHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEHelpViewController.m; sourceTree = "<group>"; };
+		0A80A8261B5DDB8800C1DE67 /* EEHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEHelpViewController.xib; sourceTree = "<group>"; };
+		0A80A8291B5DDBAD00C1DE67 /* EECopyrightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EECopyrightViewController.h; sourceTree = "<group>"; };
+		0A80A82A1B5DDBAD00C1DE67 /* EECopyrightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EECopyrightViewController.m; sourceTree = "<group>"; };
+		0A80A82B1B5DDBAD00C1DE67 /* EECopyrightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EECopyrightViewController.xib; sourceTree = "<group>"; };
+		0AA6AF521B52D819007D7D94 /* EEPaidTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPaidTableCell.h; sourceTree = "<group>"; };
+		0AA6AF531B52D819007D7D94 /* EEPaidTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPaidTableCell.m; sourceTree = "<group>"; };
+		0AA6AF541B52D819007D7D94 /* EEPaidTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEPaidTableCell.xib; sourceTree = "<group>"; };
+		0AEC9BE91B598DCF00DBF9E6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0AF3CA991B72C2C4006B3DF3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0AF5C2E71B60229500428F0E /* EEGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGroupsViewController.h; sourceTree = "<group>"; };
+		0AF5C2E91B60229500428F0E /* EEGroupsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEGroupsViewController.xib; sourceTree = "<group>"; };
+		0AF5EAD11B5617DB0020262E /* EEGroupTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGroupTableCell.h; sourceTree = "<group>"; };
+		0AF5EAD21B5617DB0020262E /* EEGroupTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGroupTableCell.m; sourceTree = "<group>"; };
+		0AF5EAD31B5617DB0020262E /* EEGroupTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEGroupTableCell.xib; sourceTree = "<group>"; };
+		0AF5EAD61B56D88D0020262E /* EESplitItTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EESplitItTableCell.h; sourceTree = "<group>"; };
+		0AF5EAD71B56D88D0020262E /* EESplitItTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EESplitItTableCell.m; sourceTree = "<group>"; };
+		0AF5EAD81B56D88D0020262E /* EESplitItTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EESplitItTableCell.xib; sourceTree = "<group>"; };
+		0AF5EADB1B56EFC30020262E /* EEImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEImageStore.h; sourceTree = "<group>"; };
+		0AF5EADC1B56EFC30020262E /* EEImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEImageStore.m; sourceTree = "<group>"; };
+		0AF5EADE1B5742850020262E /* EEImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEImageViewController.h; sourceTree = "<group>"; };
+		0AF5EADF1B5742850020262E /* EEImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +148,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF3CA9A1B72C2C4006B3DF3 /* StoreKit.framework in Frameworks */,
+				0A6B92AC1B6580260056ED55 /* AddressBookUI.framework in Frameworks */,
+				0A6B92AA1B65801C0056ED55 /* AddressBook.framework in Frameworks */,
+				0AEC9BEA1B598DCF00DBF9E6 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +168,70 @@
 		07C954C91B4DC50100858053 = {
 			isa = PBXGroup;
 			children = (
+				0AF3CA991B72C2C4006B3DF3 /* StoreKit.framework */,
+				0A6B92AB1B6580260056ED55 /* AddressBookUI.framework */,
+				0A6B92A91B65801C0056ED55 /* AddressBook.framework */,
+				0AEC9BE91B598DCF00DBF9E6 /* MessageUI.framework */,
+				0AF5EADE1B5742850020262E /* EEImageViewController.h */,
+				0AF5EADF1B5742850020262E /* EEImageViewController.m */,
+				0A80A8291B5DDBAD00C1DE67 /* EECopyrightViewController.h */,
+				0A80A82A1B5DDBAD00C1DE67 /* EECopyrightViewController.m */,
+				0A80A82B1B5DDBAD00C1DE67 /* EECopyrightViewController.xib */,
+				0A80A8241B5DDB8800C1DE67 /* EEHelpViewController.h */,
+				0A80A8251B5DDB8800C1DE67 /* EEHelpViewController.m */,
+				0A80A8261B5DDB8800C1DE67 /* EEHelpViewController.xib */,
+				07485B1B1B518C2B00A2D5E4 /* EEPurchaseViewController.h */,
+				07485B1C1B518C2B00A2D5E4 /* EEPurchaseViewController.m */,
+				07485B1D1B518C2B00A2D5E4 /* EEPurchaseViewController.xib */,
+				07485B161B5168E500A2D5E4 /* EEPersonViewController.h */,
+				07485B171B5168E500A2D5E4 /* EEPersonViewController.m */,
+				07485B181B5168E500A2D5E4 /* EEPersonViewController.xib */,
+				0A80A8211B5D554100C1DE67 /* EEMoreViewController.h */,
+				0A80A8221B5D554100C1DE67 /* EEMoreViewController.m */,
+				07485B111B4F5CA600A2D5E4 /* EESplitItViewController.h */,
+				07485B121B4F5CA600A2D5E4 /* EESplitItViewController.m */,
+				07485B0C1B4F5C6D00A2D5E4 /* EEPurchasesViewController.h */,
+				07485B0D1B4F5C6D00A2D5E4 /* EEPurchasesViewController.m */,
+				07485B071B4F5C4A00A2D5E4 /* EEPeopleViewController.h */,
+				07485B081B4F5C4A00A2D5E4 /* EEPeopleViewController.m */,
+				07C9550D1B4E19E900858053 /* EEAddGroupViewController.h */,
+				07C9550E1B4E19E900858053 /* EEAddGroupViewController.m */,
+				07C9550F1B4E19E900858053 /* EEAddGroupViewController.xib */,
+				0AF5C2E71B60229500428F0E /* EEGroupsViewController.h */,
+				0A0EF2051B7D48530059C69A /* EEGroupsViewController.m */,
+				0AF5C2E91B60229500428F0E /* EEGroupsViewController.xib */,
+				0AA6AF521B52D819007D7D94 /* EEPaidTableCell.h */,
+				0AA6AF531B52D819007D7D94 /* EEPaidTableCell.m */,
+				0AA6AF541B52D819007D7D94 /* EEPaidTableCell.xib */,
+				0A0BDF221B55C50400249375 /* EEPersonTableCell.h */,
+				0A0BDF231B55C50400249375 /* EEPersonTableCell.m */,
+				0A0BDF241B55C50400249375 /* EEPersonTableCell.xib */,
+				0A0BDF2C1B56089600249375 /* EEContributionsCell.h */,
+				0A0BDF2D1B56089600249375 /* EEContributionsCell.m */,
+				0A0BDF2E1B56089600249375 /* EEContributionsCell.xib */,
+				0A0BDF271B55C52800249375 /* EEPurchaseTableCell.h */,
+				0A0BDF281B55C52800249375 /* EEPurchaseTableCell.m */,
+				0A0BDF291B55C52800249375 /* EEPurchaseTableCell.xib */,
+				0AF5EAD11B5617DB0020262E /* EEGroupTableCell.h */,
+				0AF5EAD21B5617DB0020262E /* EEGroupTableCell.m */,
+				0AF5EAD31B5617DB0020262E /* EEGroupTableCell.xib */,
+				0AF5EAD61B56D88D0020262E /* EESplitItTableCell.h */,
+				0AF5EAD71B56D88D0020262E /* EESplitItTableCell.m */,
+				0AF5EAD81B56D88D0020262E /* EESplitItTableCell.xib */,
+				07C955001B4DCAD700858053 /* EEPurchase.h */,
+				07C955011B4DCAD700858053 /* EEPurchase.m */,
+				07C954F71B4DC9CD00858053 /* EEGroup.h */,
+				07C954F81B4DC9CD00858053 /* EEGroup.m */,
+				07C954FA1B4DC9E200858053 /* EEPerson.h */,
+				07C954FB1B4DC9E200858053 /* EEPerson.m */,
+				07C954FD1B4DCA1400858053 /* EEGroupStore.h */,
+				07C954FE1B4DCA1400858053 /* EEGroupStore.m */,
+				0AF5EADB1B56EFC30020262E /* EEImageStore.h */,
+				0AF5EADC1B56EFC30020262E /* EEImageStore.m */,
+				0A25D0041B54B7F600CCC9C5 /* UIViewController+BackButtonHandler.h */,
+				0A25D0051B54B7F600CCC9C5 /* UIViewController+BackButtonHandler.m */,
+				07E44C8A1BA7A627005B2D40 /* iRate.h */,
+				07E44C8B1BA7A630005B2D40 /* iRate.m */,
 				07C954D41B4DC50100858053 /* SplitIt */,
 				07C954EA1B4DC50100858053 /* SplitItTests */,
 				07C954D31B4DC50100858053 /* Products */,
@@ -158,11 +330,13 @@
 		07C954CA1B4DC50100858053 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				CLASSPREFIX = EE;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Eric Elmoznino";
 				TargetAttributes = {
 					07C954D11B4DC50100858053 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = GEECX5EAT6;
 					};
 					07C954E61B4DC50100858053 = {
 						CreatedOnToolsVersion = 6.4;
@@ -194,9 +368,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C955111B4E19EA00858053 /* EEAddGroupViewController.xib in Resources */,
+				0A0BDF301B56089700249375 /* EEContributionsCell.xib in Resources */,
+				0AF5EADA1B56D88D0020262E /* EESplitItTableCell.xib in Resources */,
+				0A0BDF2B1B55C52800249375 /* EEPurchaseTableCell.xib in Resources */,
 				07C954DD1B4DC50100858053 /* SplitIt-Prefix.pch in Resources */,
+				0A80A8281B5DDB8800C1DE67 /* EEHelpViewController.xib in Resources */,
 				07C954E21B4DC50100858053 /* LaunchScreen.xib in Resources */,
+				0A0BDF261B55C50400249375 /* EEPersonTableCell.xib in Resources */,
+				0A80A82D1B5DDBAD00C1DE67 /* EECopyrightViewController.xib in Resources */,
+				07485B1F1B518C2B00A2D5E4 /* EEPurchaseViewController.xib in Resources */,
 				07C954DF1B4DC50100858053 /* Images.xcassets in Resources */,
+				0AF5C2EB1B60229500428F0E /* EEGroupsViewController.xib in Resources */,
+				0AA6AF561B52D819007D7D94 /* EEPaidTableCell.xib in Resources */,
+				0AF5EAD51B5617DB0020262E /* EEGroupTableCell.xib in Resources */,
+				07485B1A1B5168E500A2D5E4 /* EEPersonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +401,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C954DB1B4DC50100858053 /* AppDelegate.m in Sources */,
+				0AA6AF551B52D819007D7D94 /* EEPaidTableCell.m in Sources */,
+				0A80A8271B5DDB8800C1DE67 /* EEHelpViewController.m in Sources */,
+				07C954F91B4DC9CD00858053 /* EEGroup.m in Sources */,
+				07485B191B5168E500A2D5E4 /* EEPersonViewController.m in Sources */,
+				07485B0F1B4F5C6D00A2D5E4 /* EEPurchasesViewController.m in Sources */,
+				07C954FF1B4DCA1400858053 /* EEGroupStore.m in Sources */,
+				0A0BDF251B55C50400249375 /* EEPersonTableCell.m in Sources */,
+				0A80A82C1B5DDBAD00C1DE67 /* EECopyrightViewController.m in Sources */,
+				0A80A8231B5D554100C1DE67 /* EEMoreViewController.m in Sources */,
+				07485B0A1B4F5C4A00A2D5E4 /* EEPeopleViewController.m in Sources */,
+				07C955101B4E19EA00858053 /* EEAddGroupViewController.m in Sources */,
+				0A0EF2061B7D48530059C69A /* EEGroupsViewController.m in Sources */,
+				0AF5EAE11B5742850020262E /* EEImageViewController.m in Sources */,
+				0AF5EAD91B56D88D0020262E /* EESplitItTableCell.m in Sources */,
+				0AF5EADD1B56EFC30020262E /* EEImageStore.m in Sources */,
+				07485B1E1B518C2B00A2D5E4 /* EEPurchaseViewController.m in Sources */,
+				07E44C8C1BA7A630005B2D40 /* iRate.m in Sources */,
+				0AF5EAD41B5617DB0020262E /* EEGroupTableCell.m in Sources */,
+				0A0BDF2F1B56089700249375 /* EEContributionsCell.m in Sources */,
+				0A25D0061B54B7F600CCC9C5 /* UIViewController+BackButtonHandler.m in Sources */,
+				07C954FC1B4DC9E200858053 /* EEPerson.m in Sources */,
+				07C955021B4DCAD700858053 /* EEPurchase.m in Sources */,
+				0A0BDF2A1B55C52800249375 /* EEPurchaseTableCell.m in Sources */,
 				07C954D81B4DC50100858053 /* main.m in Sources */,
+				07485B141B4F5CA600A2D5E4 /* EESplitItViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +480,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -285,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -323,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,9 +546,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SplitIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericelmoznino.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -345,9 +563,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SplitIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericelmoznino.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -355,16 +580,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SplitItTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericelmoznino.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitIt.app/SplitIt";
 			};
@@ -374,12 +596,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = SplitItTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericelmoznino.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitIt.app/SplitIt";
 			};
@@ -404,6 +623,7 @@
 				07C954F31B4DC50100858053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C954F41B4DC50100858053 /* Build configuration list for PBXNativeTarget "SplitItTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +632,7 @@
 				07C954F61B4DC50100858053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

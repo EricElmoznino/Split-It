@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EEHelpViewController">
+            <connections>
+                <outlet property="helpLabel" destination="q0X-33-Spl" id="0ls-eN-2nM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIQ-de-nlE">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0X-33-Spl">
+                            <rect key="frame" x="20" y="20" width="4405" height="1631"/>
+                            <attributedString key="attributedText">
+                                <fragment content="S">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56792249177631571" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="PLIT">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="I">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56792249177631571" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="T">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">is a simple to use app to keep track of who owes whom money when a group of people pays for shared expenses.
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="CONCEPTS">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+Four concepts make up the core of the app and are defined as follows:
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Groups">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+A Group is a user-defined name that identifies a specific series of purchases or event. For example, a Group might refer to a trip that some friends are taking together, such as </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Florida’">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> or a Club where different people pay for things at different times. The Group will serve to keep all purchases and transactions related to it in one easy to access place.
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="People">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+People are user-defined names of the people that are part of any given Group. Each of these people can make purchases or be tagged as beneficiaries of purchases or any combination thereof. For example, Dave, Mark, Sarah and Kim might all be part of the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Florida’">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> group and each might end up paying for some of the activities during the trip.
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Purchases">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+Purchases are the actual transactions that are made by the people in the group. A purchase will have a name  and a list of all the people the purchase is for (either in evenly split or custom split proportions) and the amounts that every person in the purchase has contributed. For example, if Dave, Sarah and Kim took a taxi and Dave paid for it entirely, then each of the three could be entered has having split the taxi 3 ways with Dave paying for the total fare.
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="SplitIT">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+The SpliIT button in the app is used to display the current status in order to settle up all debts between all the people in the Group. 
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="ENTERING DATA">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Groups Tab">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+Before entering any data, a Group must be created and named. The Groups page appears when you open the app for the first time. It can also be accessed by pressing the back arrow on the top left while in any of the other tabs (</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="People">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=", ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Purchases">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=", ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="SplitIT">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" or ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="More">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">).
+
+The Groups page will show all the groups that the user has created as well the date it was created. A number in a red circle will appear on the avatar next to the Group name to indicate how many people are currently assigned to the group.
+
+To add a new group, simply tap the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="+ sign ">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="(top right) to enter the New Group page. Enter the name you wish to use in the text box and press ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="'Done'">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">. Doing so will immediately bring you into the People tab to allow you start assigning people to this group.
+
+While on the Groups page, press 'Edit' (top left) to edit the groups. Press the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="– sign">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> in the red circle to delete a group. Press and hold, while moving, the three lines next to the avatar to rearrange the display order of the groups. Press </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="'">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Done">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="'">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> to finish editing. Swiping left on a group name will also allow you to quickly delete it.
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="People Tab">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+Pressing the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="People icon">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> on the bottom Tab bar will display all the people currently assigned to the group displayed on the top bar. The total amounts that these people owe (if shown in red) or are owed (if shown in green) is displayed to the right of the names.
+
+To add a new person to the group, simply tap the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="+ sign">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> (top right) to enter the New Person page. Enter the name you wish to use in the Name box as well as their email address (if desired) and press </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="'Done'">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=". Pressing on the grayed-out ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="'person'">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> avatar will also allow you to take a picture of the person to use as a thumbnail. The name, email and picture can be edited at a later time if you do not wish to enter them fully the first time.
+
+Clicking on the name of a person in the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="People tab">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> will not only show you their name, email and thumbnail picture but also a list of all the contributions they have made in the group (including the name of the purchase, its total cost and the amount that they paid towards it).
+
+Clicking on an individual contribution line will bring you into the details about this contribution for all people involved.
+
+A person may not be deleted from a group unless they have not been involved in any purchase or transaction. To delete a person, swipe left on the person’s name and click </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Delete’">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">.
+
+Clicking on the default person avatar next to a person’s name will allows you to replace it with an actual picture of the person. If a picture of the person already exists, clicking on it will open the picture. Clicking on the Camera icon while viewing the picture will allow you to take and save a new picture.
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Purchases Tab">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+Pressing the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Purchases icon">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> on the bottom Tab bar will display a list of all purchases made by the group. The total amount of the purchases and the purchase dates are also displayed.
+
+To add a new purchase, simply tap the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="+ sign">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> (top right) to enter the New Purchase page. Enter the name you wish to use in the Name box as well as any text Notes about the purchase. Pressing the default </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Bill’">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">icon on the top right will allow you to take a picture of the bill or receipt (if needed). The next step is to enter the sharing details about the purchase...
+
+First start by selecting all the people that are part of this purchase transaction by moving the slider button next to their name to the right (becomes green). A person is part of the purchase transaction if they either pay an amount towards it or someone pays an amount for it on their behalf. For example, if Kim pays for ice cream for her, John and Dave, the three of them should be selected as part of this purchase. If Kim pays for ice cream for John and Dave only (not for herself), the three of them should still be selected as part of this purchase (since Kim is still making a payment).
+
+For each person involved in the purchase, enter the amount that was paid towards the purchase in the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Paid’">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> dialog box. 
+
+If the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Even Split’">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> button is selected, the app will automatically attribute the same Split percentage to each person selected. For example, if 3 people are selected for the purchase, each will be attributed 33.33% split. This means that each of the three people benefited equally from the total purchase amount. 
+
+If you wish to enter your own split percentages (for example, if one person had 2 drinks and the other two only had one drink each), click on the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="'Custom Split'">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> button and enter the percentage split for each person individually. In the example above, the person having two drinks would have a split of 50% and the other two would have 25% each. 
+
+If you manually enter percentage splits and try to click </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Done’">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" and the total percentage amounts do not add up to 100%, the ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="'Split data fields'">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> will turn Red and you will not be able to save the information until you have adjusted the percentages to total 100%. The app will tell you what your current percentage amounts total and by how much to adjust it to total 100%
+
+Note that the text </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Should pay next’">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> will appear under the name of the person who currently has paid out the least amount of money for group purchases.
+
+Press </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Done’">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> to accept all changes and create the new purchase.
+ 
+Clicking on any existing purchase will open up a page with the details of the purchase. Any of the details (Name, Notes, Picture), except the date, may be changed. Pressing the arrow on the top left to leave the page will save any new entry made.
+
+To delete a purchase, swipe left on the purchase name (while viewing the list of all purchases) and click </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="‘Delete’">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">.
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="SplitIT Tab">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+Pressing the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="SplitIT icon">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> on the bottom Tab bar will display the current debts and settlement information for all the people in the group. Simple, easy to understand directions are given to indicate who needs to pay how much to whom to settle all debts in the most efficient way.
+
+Pressing on the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="'E">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="mail">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="'">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="icon">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> will send an email with settlement information to anyone in the group whose email has been entered in the People tab.
+
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="More Tab">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">
+
+Pressing the </string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="More icon">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.56862745098039214" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content"> on the bottom Tab bar will open up a page giving you access to the help tutorial as well as copyright and disclaimer information.
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="q0X-33-Spl" firstAttribute="leading" secondItem="mIQ-de-nlE" secondAttribute="leading" constant="20" id="9ju-i1-hqo"/>
+                        <constraint firstItem="q0X-33-Spl" firstAttribute="top" secondItem="mIQ-de-nlE" secondAttribute="top" constant="20" id="PG4-rR-kyx"/>
+                        <constraint firstAttribute="bottom" secondItem="q0X-33-Spl" secondAttribute="bottom" constant="20" id="hkq-8t-YC4"/>
+                        <constraint firstAttribute="trailing" secondItem="q0X-33-Spl" secondAttribute="trailing" constant="20" id="raz-oV-CGh"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mIQ-de-nlE" secondAttribute="bottom" id="6Gy-Ko-DWL"/>
+                <constraint firstItem="mIQ-de-nlE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FSr-zT-LEp"/>
+                <constraint firstAttribute="trailing" secondItem="mIQ-de-nlE" secondAttribute="trailing" id="WVJ-FO-G5G"/>
+                <constraint firstItem="mIQ-de-nlE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uJW-0x-4Pk"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

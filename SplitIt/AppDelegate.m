@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "EEGroupsViewController.h"
+#import "EEGroupStore.h"
+#import "EEPeopleViewController.h"
+#import "EEPurchasesViewController.h"
+#import "EESplitItViewController.h"
+#import "EEMoreViewController.h"
+#import "iRate.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +21,34 @@
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    EEGroupsViewController *gvc = [[EEGroupsViewController alloc] init];
+    
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:gvc];
+    nc.navigationBar.translucent = NO;
+    
+    nc.restorationIdentifier = NSStringFromClass([nc class]);
+    
+    self.window.rootViewController = nc;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
++ (void)initialize
+{
+    //Configure iRate
+    [iRate sharedInstance].applicationName = @"SplitIT";
+    [iRate sharedInstance].messageTitle = @"Enjoying SplitIT?";
+    [iRate sharedInstance].message = @"Take a few seconds to rate us!";
+    [iRate sharedInstance].cancelButtonLabel = @"No Thanks";
+    [iRate sharedInstance].rateButtonLabel = @"Rate It Now";
+    [iRate sharedInstance].remindButtonLabel = @"Remind Me Later";
+    [iRate sharedInstance].useUIAlertControllerIfAvailable = YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -25,9 +56,15 @@
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+    BOOL success = [[EEGroupStore sharedStore] saveChanges];
+    if (success) {
+        NSLog(@"Saved all groups successfully");
+    }
+    else {
+        NSLog(@"Could not save any groups");
+    }
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
